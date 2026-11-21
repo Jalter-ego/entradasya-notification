@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+!.env.smtp.example
+keys/
+*.pem
+*.log
+coverage/
