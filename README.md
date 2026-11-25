@@ -2,6 +2,7 @@
 
 Envía el **correo de confirmación** de una compra pagada mediante Nodemailer y SMTP real (por ejemplo SendGrid). Mailpit queda como alternativa local opcional. Servicio interno, **sin base de datos**: solo lo llama orders, con un token exclusivo del par orders ↔ notifications. El estado del envío lo guarda orders en `notification_status`.
 
+
 - Contrato HTTP: [`contracts/notifications.openapi.yaml`](../../contracts/notifications.openapi.yaml).
 - Datos: [README de bases, sección P4](../../docs/database/README.md#6-p4--payments_db-y-notifications).
 - Plan: tareas D4, D5 y D7 del [plan de implementación](../../docs/Plan_de_implementacion_EntradasYa_v1.md#p4---pago-correo-y-soporte-de-datos).
